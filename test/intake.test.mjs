@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {runDemo} from '../public/core.js';
+test('clarifies missing counts and hands off requests for a person',()=>{assert.equal(runDemo({utterance:'I need window cleaning'}).data.status,'clarify');assert.equal(runDemo({utterance:'Please let me speak to a human'}).data.status,'handoff');});
+test('confirmation is explicit and cancellation stops the draft',()=>{const state=runDemo({utterance:'20 exterior windows, 2 stories'}).data;assert.equal(state.quote.amount,195);assert.equal(runDemo({},state,'approve').data.status,'confirmed_in_sandbox');assert.equal(runDemo({utterance:'cancel'},state).data.status,'cancelled');});

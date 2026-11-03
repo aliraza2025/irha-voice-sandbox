@@ -1,0 +1,70 @@
+{
+  "input": {
+    "utterance": "Could you quote 20 exterior windows in a two-story home?"
+  },
+  "output": {
+    "title": "A conversation with a reviewable outcome",
+    "status": "BROWSER CONVERSATION BASELINE",
+    "sections": [
+      {
+        "title": "Conversation",
+        "headers": [
+          "Speaker",
+          "Message"
+        ],
+        "rows": [
+          [
+            "caller",
+            "Could you quote 20 exterior windows in a two-story home?"
+          ],
+          [
+            "receptionist",
+            "Draft for review: Exterior windows for 20 windows in a 2-story property is $195 in this fictional catalog. Scheduling and final scope need confirmation."
+          ]
+        ]
+      },
+      {
+        "title": "Current state",
+        "body": "awaiting_review"
+      }
+    ],
+    "actions": [
+      {
+        "id": "approve",
+        "label": "Confirm sandbox draft"
+      },
+      {
+        "id": "reject",
+        "label": "Cancel draft"
+      }
+    ],
+    "data": {
+      "history": [
+        {
+          "speaker": "caller",
+          "text": "Could you quote 20 exterior windows in a two-story home?"
+        },
+        {
+          "speaker": "receptionist",
+          "text": "Draft for review: Exterior windows for 20 windows in a 2-story property is $195 in this fictional catalog. Scheduling and final scope need confirmation."
+        }
+      ],
+      "quote": {
+        "service": "exterior",
+        "label": "Exterior windows",
+        "units": 20,
+        "stories": 2,
+        "currency": "USD",
+        "amount": 195,
+        "steps": [
+          "20 windows × $8 = $160",
+          "Minimum charge: $120",
+          "Height premium: $35"
+        ],
+        "sourceId": "fictional-catalog-v1",
+        "disclaimer": "Synthetic demonstration prices; not a Blue Ocean or irha offer."
+      },
+      "status": "awaiting_review"
+    }
+  }
+}
