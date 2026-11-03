@@ -1,6 +1,8 @@
-# irha Voice Sandbox
+# Awaaz
 
-![Project cover](public/cover.svg)
+**Local voice AI sandbox · Raza Labs by Ali Raza**
+
+![Concept artwork for Awaaz](public/project-cover.webp)
 
 An independent public sandbox for local speech transcription, service intake, clarification, quote review, and human handoff using fictional records.
 
@@ -52,3 +54,7 @@ The original browser source is in `public/`. `docs/` is generated for GitHub Pag
 Connect a self-hosted LiveKit room and local STT/LLM/TTS, then measure turn latency, interruption handling, and task completion.
 
 License: [MIT](LICENSE) for this repository's original source. See each dependency and model card for their respective terms.
+
+## Visual identity
+
+Original AI-generated concept artwork for the Raza Labs collection, matched to Ali Raza’s midnight-purple and pink portfolio studio. The cover is illustrative artwork; the interactive demo shows the actual prototype. Generation prompt: [ARTWORK.md](ARTWORK.md).

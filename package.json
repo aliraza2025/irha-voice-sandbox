@@ -12,5 +12,6 @@
     "test": "node --test",
     "build": "node build.mjs",
     "start": "node server.mjs"
-  }
+  },
+  "description": "Awaaz \u2014 Local voice AI sandbox. An independent Raza Labs prototype by Ali Raza."
 }

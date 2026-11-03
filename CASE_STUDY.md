@@ -1,4 +1,4 @@
-# irha Voice Sandbox — product case study
+# Awaaz — product case study
 
 Stage: independent prototype.
 

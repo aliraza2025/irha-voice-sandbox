@@ -1,6 +1,8 @@
 # Portfolio card
 
-**irha Voice Sandbox**
+**Awaaz**
+
+Local voice AI sandbox · Raza Labs by Ali Raza
 
 Category: Voice AI
 
@@ -17,3 +19,5 @@ Repository: https://github.com/aliraza2025/irha-voice-sandbox
 Demo: https://aliraza2025.github.io/irha-voice-sandbox/
 
 Scope qualification: A local English synthetic recording was transcribed successfully. The LiveKit Agent class and quote tool were instantiated, but no live room, telephony call, or external booking was tested. The browser microphone and local speech controls depend on browser support. This sandbox is not the commercial irha service implementation.
+
+Cover artwork: https://aliraza2025.github.io/irha-voice-sandbox/project-cover.webp
